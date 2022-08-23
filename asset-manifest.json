@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/viendaitran/zenoshop/static/css/main.073c9b0a.css",
-    "main.js": "/viendaitran/zenoshop/static/js/main.86ec6a2e.js",
-    "static/js/787.f0f26439.chunk.js": "/viendaitran/zenoshop/static/js/787.f0f26439.chunk.js",
-    "static/media/logo.svg": "/viendaitran/zenoshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/viendaitran/zenoshop/index.html",
-    "main.073c9b0a.css.map": "/viendaitran/zenoshop/static/css/main.073c9b0a.css.map",
-    "main.86ec6a2e.js.map": "/viendaitran/zenoshop/static/js/main.86ec6a2e.js.map",
-    "787.f0f26439.chunk.js.map": "/viendaitran/zenoshop/static/js/787.f0f26439.chunk.js.map"
+    "main.css": "/zenoshop/static/css/main.073c9b0a.css",
+    "main.js": "/zenoshop/static/js/main.6fcb0adb.js",
+    "static/js/787.f0f26439.chunk.js": "/zenoshop/static/js/787.f0f26439.chunk.js",
+    "static/media/logo.svg": "/zenoshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/zenoshop/index.html",
+    "main.073c9b0a.css.map": "/zenoshop/static/css/main.073c9b0a.css.map",
+    "main.6fcb0adb.js.map": "/zenoshop/static/js/main.6fcb0adb.js.map",
+    "787.f0f26439.chunk.js.map": "/zenoshop/static/js/787.f0f26439.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.86ec6a2e.js"
+    "static/js/main.6fcb0adb.js"
   ]
 }
