@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zenoshop/static/css/main.cfe90142.css",
-    "main.js": "/zenoshop/static/js/main.3bd1a213.js",
+    "main.js": "/zenoshop/static/js/main.2f0d3d75.js",
     "static/js/787.f0f26439.chunk.js": "/zenoshop/static/js/787.f0f26439.chunk.js",
     "static/media/logo.png": "/zenoshop/static/media/logo.c4c4028f08385a473ac8.png",
     "static/media/montserrat-all-400-normal.woff": "/zenoshop/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
@@ -12,11 +12,11 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/zenoshop/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/zenoshop/index.html",
     "main.cfe90142.css.map": "/zenoshop/static/css/main.cfe90142.css.map",
-    "main.3bd1a213.js.map": "/zenoshop/static/js/main.3bd1a213.js.map",
+    "main.2f0d3d75.js.map": "/zenoshop/static/js/main.2f0d3d75.js.map",
     "787.f0f26439.chunk.js.map": "/zenoshop/static/js/787.f0f26439.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfe90142.css",
-    "static/js/main.3bd1a213.js"
+    "static/js/main.2f0d3d75.js"
   ]
 }
