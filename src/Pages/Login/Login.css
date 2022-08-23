@@ -1,0 +1,227 @@
+.form-login {
+  background: rgb(220, 240, 255);
+  height: 100vh;
+  width: 100%;
+}
+.form-login .gotoHome {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+.form-login .gotoHome a {
+  transition: 0.5s;
+  text-decoration: none;
+  color: dodgerblue;
+  padding: 5px;
+  font-size: 40px;
+  border-radius: 100%;
+}
+.form-login .gotoHome a:hover {
+  color: hsl(212deg, 98%, 32%);
+}
+.form-login .form-item {
+  position: absolute;
+  background: white;
+  text-align: center;
+  top: 18%;
+  bottom: 18%;
+  right: 15%;
+  left: 15%;
+  border-radius: 10px 20px 20px 10px;
+  box-shadow: -1px 2px 3px 0 black;
+  transition: 1s;
+  -webkit-animation: righttoleft 1.5s;
+          animation: righttoleft 1.5s;
+}
+.form-login .form-item .form-input {
+  overflow-y: auto;
+  position: absolute;
+  left: 10%;
+  right: 52%;
+  top: 25%;
+  bottom: 20%;
+  transition: 1s;
+}
+.form-login .form-item .form-input::-webkit-scrollbar {
+  background: white;
+}
+.form-login .form-item .form-input h1 {
+  transition: 1s;
+  font-family: "Montserrat";
+  margin: 10px;
+  font-size: 28px;
+}
+.form-login .form-item .form-input input {
+  transition: 1s;
+  border-radius: 6px;
+  outline: none;
+  border: 0;
+  margin: 7px;
+  width: 90%;
+  font-size: 18px;
+  padding: 8px 25px;
+  background-color: rgb(197, 226, 255);
+}
+.form-login .form-item .form-input button {
+  transition: 0.5s;
+  background-color: dodgerblue;
+  border-radius: 30px;
+  font-size: 18px;
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: 0;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.form-login .form-item .form-input button:hover {
+  background-color: rgb(6, 98, 190);
+}
+.form-login .gotoSignUp {
+  text-align: center;
+  background-color: dodgerblue;
+  position: absolute;
+  width: 30%;
+  top: 18%;
+  bottom: 18%;
+  left: 55%;
+  border-radius: 0 10px 10px 0;
+}
+.form-login .gotoSignUp .container {
+  position: relative;
+  top: 30%;
+  bottom: 30%;
+}
+.form-login .gotoSignUp .container h1 {
+  transition: 1s;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: white;
+  margin: 4%;
+}
+.form-login .gotoSignUp .container a {
+  font-weight: bold;
+  transition: 1s;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 8px 18px;
+  border-radius: 50px;
+}
+.form-login .gotoSignUp .container a:hover {
+  box-shadow: 0 0 5px 0 black;
+}
+
+@media screen and (max-width: 1200px) {
+  .form-login .form-item .form-input {
+    left: 10%;
+    right: 48%;
+  }
+  .form-login .form-item .form-input h1 {
+    margin: 8px;
+    font-size: 24px;
+  }
+  .form-login .form-item .form-input input {
+    margin: 6px;
+    width: 90%;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: rgb(197, 226, 255);
+  }
+}
+@media screen and (max-width: 800px) {
+  .form-login .gotoHome a {
+    font-size: 30px;
+    border-radius: 100%;
+  }
+  .form-login .gotoHome a:hover {
+    font-size: 35px;
+  }
+  .form-login .form-item .form-input {
+    top: 20%;
+    left: 6%;
+    right: 45%;
+  }
+  .form-login .form-item .form-input h1 {
+    margin: 8px;
+    font-size: 22px;
+  }
+  .form-login .form-item .form-input input {
+    margin: 5px;
+    width: 90%;
+    font-size: 12px;
+    padding: 7px 20px;
+    background-color: rgb(197, 226, 255);
+  }
+  .form-login .form-item .form-input button {
+    font-size: 16px;
+    width: 45%;
+  }
+  .form-login .gotoSignUp .container {
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+  }
+  .form-login .gotoSignUp .container h1 {
+    font-size: 15px;
+  }
+  .form-login .gotoSignUp .container a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form-login .form-item .form-input h1 {
+    font-size: 13px;
+  }
+  .form-login .form-item .form-input input {
+    margin: 5px;
+    width: 80%;
+    font-size: 10px;
+    padding: 6px 12px;
+    background-color: rgb(197, 226, 255);
+  }
+  .form-login .form-item .form-input button {
+    font-size: 13px;
+    width: 34%;
+  }
+  .form-login .gotoSignUp .container {
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+  }
+  .form-login .gotoSignUp .container h1 {
+    font-size: 12px;
+  }
+  .form-login .gotoSignUp .container a {
+    padding: 3px 10px;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .form-login .form-item .form-input input {
+    font-size: 9px;
+  }
+  .form-login .form-item .form-input h1 {
+    font-size: 12px;
+  }
+  .form-login .form-item .form-input button {
+    font-size: 10px;
+  }
+}
+@-webkit-keyframes righttoleft {
+  to {
+    margin: 0;
+  }
+  from {
+    margin-left: 40%;
+  }
+}
+@keyframes righttoleft {
+  to {
+    margin: 0;
+  }
+  from {
+    margin-left: 40%;
+  }
+}/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: dodgerblue;
+  width: 100%;
+  transition: 2s;
+}
+.App .navbar1 {
+  padding: 40px;
+}
+.App .navbar1 .container {
+  margin: 0 8%;
+}
+.App .navbar1 .navbar-item {
+  float: right;
+  display: flex;
+}
+.App .navbar1 a {
+  transition: 0.4s;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  margin-top: -17px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.App .navbar1 a:hover {
+  font-size: 22px;
+}
+.App .navbar1 .logo {
+  z-index: 100;
+  width: 100px;
+  transition: 0.4s;
+  position: absolute;
+  justify-self: start;
+  left: 13%;
+  top: 15px;
+}
+.App .navbar1 .logo:hover {
+  width: 135px;
+}
+.App .navbar1 .imglink {
+  position: absolute;
+  justify-self: start;
+  left: 13%;
+  top: 15px;
+}
+.App .navbar2 {
+  display: flex;
+}
+.App .navbar2 form {
+  padding: 0 26%;
+}
+.App .navbar2 form .item-search {
+  transition: 0.5s;
+  margin: -4.5px auto;
+  padding: 16px;
+  position: absolute;
+  width: 40%;
+  height: 20px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 10px;
+}
+.App .navbar2 form .item-search:focus {
+  font-size: 21px;
+}
+.App .navbar2 form .btn-search {
+  transition: 0.5s;
+  position: absolute;
+  font-size: 15px;
+  float: right;
+  right: 34.6%;
+  background-color: dodgerblue;
+  padding: 6px 6px 3px 7px;
+  border-radius: 100%;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.App .navbar2 form .btn-search:hover {
+  background-color: rgb(7, 106, 205);
+}
+.App .navbar2 .btn-cart {
+  transition: 0.5s;
+  color: white;
+  position: relative;
+  font-size: 38px;
+  margin: -5px auto;
+  padding: auto;
+  right: -5%;
+}
+.App .navbar2 .btn-cart:hover {
+  color: rgb(222, 222, 222);
+}
+.App .icon-res {
+  display: none;
+}
+@media screen and (max-width: 850px) {
+  .App .navbar2 {
+    display: none;
+    -webkit-animation: ghost 1s linear;
+            animation: ghost 1s linear;
+  }
+  .App .navbar2 form {
+    padding: 0 20%;
+    margin-bottom: 40px;
+  }
+  .App .navbar2 form .item-search {
+    width: 60%;
+    font-size: 12px;
+  }
+  .App .navbar2 form .item-search:focus {
+    font-size: 15px;
+  }
+  .App .navbar2 form .btn-search {
+    font-size: 15px;
+    right: 21%;
+    padding: 6px 6px 3px 7px;
+  }
+  .App .navbar2 form .btn-search:hover {
+    background-color: rgb(7, 106, 205);
+  }
+  .App .navbar2 .btn-cart {
+    display: none;
+  }
+  .App .icon-res {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 4%;
+    font-size: 25px;
+  }
+  .App .icon-res a {
+    color: white;
+  }
+  .App .icon-res .icon-search {
+    position: absolute;
+    top: 150%;
+    left: -5px;
+    font-size: 20px;
+    padding: 8px 10px 7px 10px;
+    border-radius: 0 0 100% 100%;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App .navbar1 a {
+    padding: 10px;
+    margin-top: -25px;
+  }
+  .App .navbar1 .logo {
+    left: -5px;
+    top: 26px;
+  }
+  .App .navbar2 form .item-search {
+    font-size: 10px;
+  }
+  .App .navbar2 form .item-search:focus {
+    font-size: 12px;
+  }
+  .App .navbar2 .btn-cart {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .App .navbar1 {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+  }
+  .App .navbar1 .navbar-item {
+    float: right;
+    margin-left: 60px;
+  }
+  .App .navbar1 a {
+    margin: auto;
+    padding: 5px;
+    font-size: 13.5px;
+  }
+  .App .navbar1 a:hover {
+    font-size: 14px;
+  }
+  .App .navbar1 .logo {
+    left: -25px;
+    top: -8px;
+  }
+  .App .navbar1 .logo:hover {
+    width: 100px;
+  }
+  .App .icon-res {
+    top: 17px;
+    font-size: 20px;
+  }
+  .App .icon-res .icon-search {
+    top: 149%;
+    font-size: 15px;
+    color: white;
+  }
+}
+@media screen and (max-width: 350px) {
+  .App .icon-res {
+    font-size: 18px;
+  }
+  .App .navbar1 a {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .App .navbar1 a:hover {
+    font-size: 10px;
+  }
+  .App .navbar1 .logo {
+    width: 80px;
+    left: -25px;
+    top: -5px;
+  }
+  .App .navbar1 .logo:hover {
+    width: 100px;
+  }
+}
+.App .active {
+  display: flex;
+}
+@-webkit-keyframes ghost {
+  to {
+    opacity: 100%;
+  }
+  from {
+    opacity: 0;
+  }
+}
+@keyframes ghost {
+  to {
+    opacity: 100%;
+  }
+  from {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
